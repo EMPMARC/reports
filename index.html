@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="/report1" method="post">
+  <button id="generate1">Report 1</button>
+  </form>
+  <form action="/report2" method="post">
+  <button id="generate2">Report 2</button>
+  </form>
+  <form action="/report3" method="post">
+  <button id="generate3">Report 3</button>
+  </form>
+  
+    <script>
+    document.getElementById("generate1").addEventListener("click", () => {
+      // window.open("/report", "_blank");
+
+      // Option 2: force download directly (same as clicking a download link)
+      window.location.href = "/report1";
+    })
+  
+   document.getElementById("generate2").addEventListener("click", () => {
+      // window.open("/report", "_blank");
+
+      // Option 2: force download directly (same as clicking a download link)
+      window.location.href = "/report2";
+    })
+    
+    document.getElementById("generate3").addEventListener("click", () => {
+      // window.open("/report", "_blank");
+
+      // Option 2: force download directly (same as clicking a download link)
+      window.location.href = "/report3";
+    });
+  </script>
+</body>
+</html>
