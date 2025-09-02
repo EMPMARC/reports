@@ -11,6 +11,8 @@
   "description": "",
   "dependencies": {
     "body-parser": "^2.2.0",
+    "chart.js": "^4.5.0",
+    "chartjs-node-canvas": "^5.0.0",
     "express": "^5.1.0",
     "mysql2": "^3.14.3",
     "pdfkit": "^0.17.1"
